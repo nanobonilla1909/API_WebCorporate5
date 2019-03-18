@@ -19,14 +19,14 @@ class FeaturedProductController extends ApiController
 
         // sin Resources
 
-        /* $featured_products = FeaturedProduct::all();
+         $featured_products = FeaturedProduct::all();
 
         return $this->showAll($featured_products);
-        */
+        
 
         // con Resources
 
-        return FeaturedProductCollection::collection(FeaturedProduct::all());
+        // return FeaturedProductCollection::collection(FeaturedProduct::all());
 
 
 

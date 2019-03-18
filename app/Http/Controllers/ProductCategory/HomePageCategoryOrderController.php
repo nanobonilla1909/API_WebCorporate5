@@ -16,17 +16,17 @@ class HomePageCategoryOrderController extends ApiController
          
         // usando Resources
          
-        return HomePageCategoryOrderCollection::collection(HomePageCategoryOrder::orderBy('order')->get());
+        // return HomePageCategoryOrderCollection::collection(HomePageCategoryOrder::orderBy('order')->get());
 
 
 
         // sin usar Resources
 
 
-        /*
+        
         $home_page_category_orders = HomePageCategoryOrder::all();
         
-        return $this->showAll($home_page_category_orders); */
+        return $this->showAll($home_page_category_orders); 
     }
 
 
